@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon",
     "production": "pm2 start src/loader.js --name gold-silver",
-    "start": "pm2 start src/loader.js --name gold-silver"
+    "start": "node src/loader.js"
   },
   "keywords": [],
   "author": "Hugo Amaral <hugoamaralth@gmail.com>",
