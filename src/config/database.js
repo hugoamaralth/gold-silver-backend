@@ -4,4 +4,4 @@ mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
-module.exports = mongoose.connect('mongodb://192.168.1.7/goldsilver');
+module.exports = mongoose.connect('mongodb://goldadmin:gldslvr2020@geonosis.mongodb.umbler.com:38277/gold-silver');
